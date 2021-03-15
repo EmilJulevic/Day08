@@ -1,15 +1,13 @@
 var sum = 0;
 
 function addThree() {
-    sum += 3;
+    sum = sum + 3;
     console.log(sum);
 }
-
 function addFive() {
-    sum += 5;
+    sum = sum + 5;
     console.log(sum);
 }
-
 addThree();
 addFive();
 
